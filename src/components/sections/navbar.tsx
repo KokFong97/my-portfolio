@@ -1,6 +1,7 @@
 import { Separator } from "@/components/ui/separator"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
+import { ModeToggle } from "../ui/theme-toggle"
 
 export const Navbar = () => {
     return (
@@ -35,6 +36,7 @@ export const Navbar = () => {
                         >
                             Contact
                         </Link>
+                        <ModeToggle/>
                     </nav>
                 </div>
                 
