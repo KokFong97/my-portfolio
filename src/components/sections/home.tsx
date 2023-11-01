@@ -6,7 +6,7 @@ export const Home = () => {
         <div className="h-90vh grid grid-cols-2 gap-4 place-content-around">
             <div>
                 <article className="prose dark:prose-invert lg:prose-xl">
-                    <h1>Hi, I'm Kok Fong</h1>
+                    <h1>{"Hi, I'm Kok Fong"}</h1>
                     <h3>
                         {"I  "}
                         <ReactRotatingText items={
