@@ -2,7 +2,9 @@ export const About = () => {
     return(
         <div id="about" className="h-screen flex flex-col justify-center items-center">
             <article className="prose dark:prose-invert lg:prose-xl">
-                
+                <h1>
+                    ABOUT ME
+                </h1>
                 <p>
                 {`I'm a full-stack web developer based in Singapore. 
                 With over five years of experience in the industry, I specialize in creating responsive and 
