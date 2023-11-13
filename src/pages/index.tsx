@@ -8,14 +8,11 @@ export default function Portfolio() {
         <title> Lim Kok Fong </title>
         <meta name="description" content="Developer Portfolio for Kok Fong" key="desc" />
       </Head>
-      <div id="home"/>
       <Navbar/>
-      <div className="container px-4">
-        <Home/>
-        <About/>
-        <Project/>
-        <Contact/>
-      </div>
+      <Home/>
+      <About/>
+      <Project/>
+      <Contact/>
     </>
   )
 }

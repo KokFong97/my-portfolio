@@ -1,43 +1,10 @@
 var ReactRotatingText = require('react-rotating-text');
 
 export const Home = () => {
-    // return(
-    //     // <div className="h-90vh flex flex-row justify-center items-center">
-    //     <div className="h-90vh grid grid-cols-1 md:grid-cols-2 gap-4 place-content-center border">
-    //         <div className="border">
-    //             <article className="prose dark:prose-invert lg:prose-xl">
-    //                 <h1>{"Hi, I'm Kok Fong"}</h1>
-    //                 <h3>
-    //                     {"I  "}
-    //                     <ReactRotatingText items={
-    //                         [
-    //                             'code, I create and I captivate', 
-    //                             'am driven by passion and precision', 
-    //                             'believe in the art of coding',
-    //                             'transform ideas into experiences',
-    //                             'turn vision into virtual realities',
-    //                             'innovate with every line'
-    //                         ]
-    //                     } />
-    //                 </h3>
-    //             </article>
-    //         </div>
-    //         <div className="border">
-    //             <article className="prose dark:prose-invert lg:prose-xl">
-    //                 {/* <h3>Hi, i'm Kok Fong</h3>
-    //                 <br/>
-    //                 <h2>
-    //                     <ReactRotatingText items={['first', 'second', 'third']} />
-    //                 </h2> */}
-    //             </article>
-    //         </div>
-            
-            
-    //     </div>
-    // )
     return (
-        <section>
-          <div className="container h-90vh mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+        <section className="relative">
+          <div id="home" className="absolute -top-16"></div>
+          <div className="container h-[94vh] mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
             <article className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font text-4xl mb-4 font-medium">
                 {"Hi, I'm Eli."}
