@@ -4,7 +4,7 @@ export const Home = () => {
     return (
         <section className="relative">
           <div id="home" className="absolute -top-16"></div>
-          <div className="container h-[94vh] mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+          <div className="container h-auto md:h-[94vh] mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
             <article className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font text-4xl mb-4 font-medium">
                 {"Hi, I'm Eli."}
@@ -37,10 +37,10 @@ export const Home = () => {
                 </span>
               </h1>
               <p className="mb-8 leading-relaxed hidden md:block">
-                {"A developer skilled in building the front and backend of web applications using frameworks like NextJS, Django, and ASP.NET CORE. I am passionate about creating user-friendly and efficient web solutions to cater to a wide range of business needs."}
+                {"A developer skilled in building the front and backend of web applications using frameworks such as NextJS, Django, and ASP.NET CORE. I am passionate about creating user-friendly and efficient web solutions to cater to a wide range of business needs."}
               </p>
               <p className="mb-8 leading-relaxed block md:hidden">
-                {"A developer skilled in building the front and backend of web applications using frameworks like NextJS, Django, and ASP.NET CORE."}
+                {"A developer skilled in building the front and backend of web applications using frameworks such as NextJS, Django, and ASP.NET CORE."}
               </p>
               <div className="flex justify-center">
                 <a

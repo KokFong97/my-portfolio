@@ -6,7 +6,7 @@ import { ModeToggle } from "../ui/theme-toggle"
 export const Navbar = () => {
     return (
         <>
-            <div className={"h-full flex-col md:flex sticky top-0 shadow-md bg-gray-100 dark:bg-slate-900 z-50"}>
+            <div className={"h-full flex-col md:flex sticky top-0 shadow-md bg-white dark:bg-slate-900 z-50"}>
                 <div className="container flex flex-col items-start justify-between space-y-2 py-4 sm:flex-row sm:items-center sm:space-y-0 sm:h-16">
                     <h2 className="text-lg font-semibold hidden md:block">Kok Fong</h2>
                     <nav
